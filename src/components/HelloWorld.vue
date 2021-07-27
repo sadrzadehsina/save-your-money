@@ -27,7 +27,7 @@
     <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Docs</a>
   </p>
 
-  <button type="button" @click="count++">count is: {{ count }}</button>
+  <it-button type="primary" @click="count++">count is: {{ count }}</it-button>
   <p>
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.

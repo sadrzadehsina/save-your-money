@@ -1,4 +1,7 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
 
-createApp(App).mount('#app')
+import Equal from "equal-vue";
+import "equal-vue/dist/style.css";
+
+createApp(App).use(Equal).mount("#app");
